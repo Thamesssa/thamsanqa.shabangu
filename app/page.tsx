@@ -47,15 +47,18 @@ export default function Home() {
         <div className="container relative z-10 flex flex-col items-center text-center">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
             <span className="block">Hi, I'm </span>
-            <span className="block mt-2 text-primary">Your Name</span>
+            <span className="block mt-2 text-primary">Thamsanqa Shabangu</span>
           </h1>
+          <p className="max-w-[700px] mt-6 text-xl ">
+            A Full-Stack developer
+          </p>
           <p className="max-w-[700px] mt-6 text-xl text-muted-foreground">
             I'm a full-stack developer specializing in building exceptional digital experiences.
           </p>
           <div className="flex flex-wrap gap-4 mt-8">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <Link href="#projects">
-                View My Work <ArrowRight className="ml-2 h-4 w-4" />
+                View Projects <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button variant="outline" size="lg" asChild className="border-primary text-primary hover:bg-primary/10">

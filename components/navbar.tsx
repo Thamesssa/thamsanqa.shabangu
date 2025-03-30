@@ -85,8 +85,8 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <span className="text-primary">Port</span>
-            <span>folio</span>
+            <span className="text-primary">&lt;T</span>
+            <span>S/&gt;</span>
             <motion.div
               className="absolute -bottom-1 left-0 h-[2px] bg-primary"
               initial={{ width: 0 }}
