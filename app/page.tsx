@@ -53,7 +53,7 @@ export default function Home() {
             A Full-Stack developer
           </p>
           <p className="max-w-[700px] mt-6 text-xl text-muted-foreground">
-            I'm a full-stack developer specializing in building exceptional digital experiences.
+           Specializing in building exceptional digital experiences.
           </p>
           <div className="flex flex-wrap gap-4 mt-8">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -67,17 +67,17 @@ export default function Home() {
           </div>
           <div className="flex gap-4 mt-8">
             <Button variant="ghost" size="icon" asChild className="hover:bg-primary/10 text-primary">
-              <Link href="https://github.com" target="_blank" aria-label="GitHub">
+              <Link href="https://github.com/Thamesssa" target="_blank" aria-label="GitHub">
                 <Github className="h-5 w-5" />
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild className="hover:bg-primary/10 text-primary">
-              <Link href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+              <Link href="https://www.linkedin.com/in/thamsanqa-shabangu-8b497b205/" target="_blank" aria-label="LinkedIn">
                 <Linkedin className="h-5 w-5" />
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild className="hover:bg-primary/10 text-primary">
-              <Link href="mailto:your.email@example.com" aria-label="Email">
+              <Link href="mailto:tummysanqa@gmail.com" aria-label="Email">
                 <Mail className="h-5 w-5" />
               </Link>
             </Button>
@@ -91,17 +91,16 @@ export default function Home() {
           <div className="grid gap-10 mt-10 md:grid-cols-2">
             <div>
               <p className="text-lg text-muted-foreground">
-                I'm a passionate developer with a keen eye for design and a love for creating seamless user experiences.
-                With expertise in React, Next.js, and modern web technologies, I build applications that are not only
-                functional but also visually appealing.
-              </p>
+              I build digital solutions that work. Skilled in Angular, Java Spring Boot, and PostgreSQL, I create both back-end systems and user-friendly interfaces. My focus is on making technology simple and effective. 
+             </p>
               <p className="mt-4 text-lg text-muted-foreground">
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                or enjoying outdoor activities.
+              I hold a Computer Science degree from UNISA, with knowledge in full-stack development and AI. I enjoy solving technical challenges and keeping up with new tech trends.
+
+When not coding, I recharge outdoors. I believe good technology should be invisible - it just works.
               </p>
             </div>
             <div className="flex items-center justify-center">
-              <div className="relative w-64 h-64 overflow-hidden rounded-full bg-primary/10 border-2 border-primary/30">
+              <div className="relative w-64 h-64 px-20 overflow-hidden rounded-full">
                 <Image
                   src="/images/profile.png"
                   alt="Profile"
@@ -149,21 +148,20 @@ export default function Home() {
           <div className="grid gap-10 mt-10 md:grid-cols-2">
             <div>
               <p className="text-lg text-muted-foreground">
-                I'm currently open to freelance opportunities and collaborations. If you have a project in mind or just
-                want to say hello, feel free to reach out!
+              I'm currently seeking junior developer positions where I can contribute my full-stack skills and continue growing. If you're looking for a dedicated team member or just want to connect, I'd love to chat.
               </p>
               <div className="mt-6 space-y-4">
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 mr-3 text-primary" />
-                  <span>your.email@example.com</span>
+                  <span>tummysanqa@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <Linkedin className="w-5 h-5 mr-3 text-primary" />
-                  <span>linkedin.com/in/yourname</span>
+                  <span>linkedin.com/in/thamsanqa-shabangu</span>
                 </div>
                 <div className="flex items-center">
                   <Github className="w-5 h-5 mr-3 text-primary" />
-                  <span>github.com/yourusername</span>
+                  <span>github.com/thamesssa</span>
                 </div>
               </div>
             </div>
@@ -176,21 +174,21 @@ export default function Home() {
         <div className="container px-4 mx-auto">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Your Name. All rights reserved.
+              © {new Date().getFullYear()} Thamsanqa Shabangu. All rights reserved.
             </p>
             <div className="flex gap-4">
               <Button variant="ghost" size="icon" asChild className="text-primary hover:bg-primary/10">
-                <Link href="https://github.com" target="_blank" aria-label="GitHub">
+                <Link href="https://github.com/Thamesssa" target="_blank" aria-label="GitHub">
                   <Github className="h-4 w-4" />
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild className="text-primary hover:bg-primary/10">
-                <Link href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <Link href="https://www.linkedin.com/in/thamsanqa-shabangu-8b497b205/" target="_blank" aria-label="LinkedIn">
                   <Linkedin className="h-4 w-4" />
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild className="text-primary hover:bg-primary/10">
-                <Link href="mailto:your.email@example.com" aria-label="Email">
+                <Link href="mailto:tummysanqa@gmail.com" aria-label="Email">
                   <Mail className="h-4 w-4" />
                 </Link>
               </Button>
