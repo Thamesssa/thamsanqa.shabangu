@@ -76,7 +76,7 @@ export default function ContactForm() {
     setIsSubmitting(true)
 
     const formData = new FormData(event.target as HTMLFormElement)
-    formData.append("access_key","325cbf00-709c-476d-b941-ea2463f86bfb")
+    formData.append("access_key",process.env.NEXT_PUBLIC_WEB3FORMS_API_KEY as string || "")
 
     const object = Object.fromEntries(formData)
     const json = JSON.stringify(object)
