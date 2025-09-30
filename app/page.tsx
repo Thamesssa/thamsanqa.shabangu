@@ -21,9 +21,9 @@ export default function Home() {
     },
     {
       title: "Sphathlo Hub",
-      dzescription: "A productivity app with drag-and-drop functionality, user authentication, and real-time updates.",
+      description: "A productivity app with drag-and-drop functionality, user authentication, and real-time updates.",
       tags: ["React", "Firebase", "Framer Motion"],
-      imageUrl: "/placeholder.svg?height=400&width=600",
+      imageUrl: "/images/profile.png",
       demoUrl: "https://example.com/task-app",
       repoUrl: "https://github.com/example/task-app",
     },
