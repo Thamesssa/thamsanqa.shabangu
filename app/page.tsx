@@ -12,22 +12,28 @@ export default function Home() {
   // Define URLs for projects
   const projectsData = [
     {
-      title: "SA Job Matcher AI",
+      title: "SA-Job-AI",
       description: "A full-featured online store built with Next.js, Tailwind CSS, and Stripe integration.",
-      tags: ["Next.js", "Tailwind CSS", "Stripe"],
+      tags: ["Next.js", "Tailwind CSS", "MongoDB"],
       imageUrl: "/placeholder.svg?height=400&width=600",
       demoUrl: "https://example.com",
-      repoUrl: "https://github.com/example/ecommerce",
+      repoUrl: "https://github.com/Thamesssa/Job-Match-AI",
     },
     {
+      title: "Sphathlo Hub",
+      dzescription: "A productivity app with drag-and-drop functionality, user authentication, and real-time updates.",
+      tags: ["React", "Firebase", "Framer Motion"],
+      imageUrl: "/placeholder.svg?height=400&width=600",
+      demoUrl: "https://example.com/task-app",
+      repoUrl: "https://github.com/example/task-app",
     },
     {
       title: "Portfolio Website",
       description: "A responsive portfolio website with smooth animations and modern design.",
       tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-      imageUrl: "/images/portfolio.png",
-      demoUrl: "https://example.com/portfolio",
-      repoUrl: "https://github.com/example/portfolio",
+      imageUrl: "/placeholder.svg?height=400&width=600",
+      demoUrl: "https://Thamsanqa.shabangu.tech",
+      repoUrl: "https://github.com/Thamesssa/thamsanqa.shabangu",
     },
   ]
 
